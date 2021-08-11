@@ -1,0 +1,97 @@
+body {
+  background-color: #1d1919;
+  font-family: "Noto Sans", sans-serif;
+  color: #fff;
+}
+
+form {
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  padding: 0;
+  display: block;
+  font-size: 40px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: thin;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+.temperature {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.units {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: -18px;
+}
+
+.sun-and-clouds,
+.sunny,
+.cloudy {
+  font-size: 80px;
+  padding: 20px;
+}
+.partly-cloudy {
+  font-size: 24px;
+}
+.time {
+  font-size: 12px;
+}
+ul {
+  text-align: center;
+  font-size: 16px;
+  list-style: none;
+}
+
+.time {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.stats {
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.temps {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.daily-stats {
+  text-align: center;
+  list-style: none;
+}
+
+.main-box {
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.day-boxes {
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
